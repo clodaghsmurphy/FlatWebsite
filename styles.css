@@ -1,0 +1,83 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: rgb(227, 156, 26);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 156, 26, 1) 0%,
+    rgba(249, 60, 20, 0.8469656992084433) 35%,
+    rgba(255, 145, 0, 0.79155672823219) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.7)
+  );
+  border-radius: 2rem;
+  z-index: 4;
+  backdrop-filter: blur(5rem);
+  display: flex;
+}
+
+.circle1 {
+  background: white;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.5)
+  );
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Flav {
+  height: 15%;
+  width: 15%;
+}
+
+.dashboard {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  height: 15%;
+  width: 15%;
+  display: inline-block;
+}
